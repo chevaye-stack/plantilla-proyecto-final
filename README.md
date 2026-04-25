@@ -1,1 +1,1 @@
-Proyecto guiado para la creacion de una p[agina web
+Proyecto guiado para la creacion de una páagina web
