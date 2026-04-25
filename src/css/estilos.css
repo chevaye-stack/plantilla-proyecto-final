@@ -1,0 +1,219 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap')
+	;
+/* variables en css */
+:root {
+	--color-blanco: #fff;
+	--color-plomo: #ADADA1;
+	--color-vino: #F54E36;
+	--color-fondo: #DED8DB;
+	--color-fondo-test: #E5F051;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*navbar*/
+.nav-perso {
+	background-color: var(--color-plomo);
+	font-size: 1.2rem;
+}
+
+.logo {
+	width: 100px;
+}
+
+.etiqueta-logo {
+	color: var(--color-vino);
+	font-size: 1.5rem;
+}
+
+.nav-link {
+	color: var(--color-blanco);
+	font-weight: 600;
+}
+
+.nav-link hover {
+	color: gray;
+}
+
+.carrito-boton {
+	font-size: 1.5rem;
+	color: var(--color-vino);
+	background-color: var(--color-plomo);
+	color: var(--color-vino);
+	border-radius: 50%;
+	padding: 3px 6px;
+}
+
+#contador-carrito {
+/*	position: absolute;*/
+	font-size: 1.5rem;
+	padding: 3px 6px;
+	background-color: var(--color-plomo); /* 👀 */
+	color: var(--color-vino);
+	border-radius: 15px;
+}
+
+/* Hero */
+.hero {
+	height: 100vh;
+	background-color: var(--color-fondo);
+}
+
+.hero h1 {
+	font-size: 3rem;
+}
+
+.hero p {
+	margin: 20px 0;
+}
+
+.hero img {
+	max-height: 400px;
+}
+
+/* Catalogo*/
+.catalogo-card {
+	background-color: gray;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 4px 15px #fff(0, 0, 0, 0.08);
+	transition: transform 0.3s ease;
+}
+
+.catalogo-card:hover {
+	transform: translateY(-5px);
+}
+
+.catalogo-card img {
+	height: 420px;
+	object-fit: contain;
+}
+
+/* footer */
+.footer {
+	background-color: var(--color-vino);
+	color: var(--color-blanco);
+}
+
+.mensaje {
+	max-width: 350px;
+	line-height: 1.5;
+}
+
+.footer h5 {
+	margin-bottom: 20px;
+}
+
+.lista-enlaces {
+	list-style: none;
+	padding: 0;
+}
+
+.lista-enlaces li {
+	margin-bottom: 8px;
+}
+
+.lista-enlaces a {
+	color: var(--color-blanco);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.lista-enlaces a:hover {
+	color: gray;
+}
+
+.redes a {
+	color: var(--color-blanco);
+	font-size: 1.5rem;
+	margin-right: 15px;
+	transition: color 0.3s ease;
+}
+
+.redes a:hover {
+	color: gray;
+}
+
+.animacion {
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 0.6s ease;
+}
+
+.animacion.activo {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Nosotros */
+.encabezado-nosotros {
+	background-color: var(--color-fondo);
+	font-size: 1.3rem;
+}
+
+.img-nosotros {
+	max-height: 450px;
+	border-radius: 30px;
+}
+
+.mision-vision {
+	background-color: var(--color-fondo);
+}
+
+.valores i {
+	color: var(--color-vino); /* 👀 */
+}
+
+/* productos - catalogo */
+.btn-perso {
+ background-color: var(--color-plomo); /* 👀 */
+	color: var(--color-blanco);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 35px;
+	transition: all 0.3s ease;
+}
+
+.btn-perso:hover {
+	background-color: var(--color-fondo-test);
+	color: var(--color-vino);
+	transform: translateY(-3px);
+}
+
+.btn-perso.activo {
+	background-color: red;
+	color: var(--color-blanco);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 35px;
+	transition: all 0.3s ease;
+}
+
+.oculto {
+	display: none;
+}
+
+.contador-cantidad {
+	margin-bottom: 5px;
+}
+
+.contador-cantidad button {
+	padding: 2px 5px;
+}
+
+/* contactanos */
+.fondo-form {
+	background-color: gray;
+}
+
+.formulario-contacto input, .formulario-contacto textarea {
+	background-color: var(--color-plomo);
+}
+
+.info-contacto i {
+	color: var(--color-vino);
+}

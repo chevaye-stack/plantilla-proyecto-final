@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="src/css/estilos.css">
+<!-- Sus estilos personalizados deben estar en la parte inferior en caso tener otros estilos -->
+<title>Plantilla-index</title>
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg nav-perso">
+		<div class="container h-100">
+			<!-- logo -->
+			<a class="navbar-brand align-items-center"> <img
+				src="src/img/logo1.png" alt="logo" class="logo">
+				<span class="sm-2 etiqueta-logo">Página web</span>
+			</a>
+			<!-- items - menu -->
+			<div class="collapse navbar-collapse justify-content-between">
+				<ul class="navbar-nav mx-auto text-center">
+					<li class="nav-item"><a class="nav-link" href="Index.html">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="pages/nosotros.html">Sobre nosotros</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="pages/productos.html">Productos</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="pages/contacto.html">Contactanos</a></li>
+				</ul>
+				<!-- carrito -->
+				<div class="carrito">
+					<a class="btn btn-perso carrito-boton">
+					<i class="fa-solid fa-cart-arrow-down"></i> 0
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!--  Hero -->
+	<section class="hero">
+		<!-- almacenamos el contenido  -->
+		<div class="container h-100">
+			<!-- ubicamos los elementos para el texto y la imagen en fila (row)-->
+			<div class="row align-items-center h-100">
+				<!-- Texto: Titulo y descripcion -->
+				<div class="col-md-6 text-center text-md-start">
+					<h1>Titulo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+						do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+						sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				</div>
+				<!-- imagen para el Hero -->
+
+				<div class="col-md-6 text-center">
+					<img src="src/img/logo1.png" class="img-fluid img-hero">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contentido cards (preview catalogo)-->
+	<section class="catalogo-preview py-5 animacion">
+		<div class="container">
+			<h2>Nuestros productos</h2>
+			<div class="row">
+				<!-- cards de productos -->
+				<div class="col-md-4 mb-4">
+					<div class="card catalogo-card">
+						<img src="src/img/logo1.png" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 mb-4">
+					<div class="card catalogo-card">
+						<img src="src/img/logo1.png" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 mb-4">
+					<div class="card catalogo-card">
+						<img src="src/img/logo1.png" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer class="footer py-5">
+		<div class="container">
+			<!-- Ubicamos en fila las etiquetas del footer-->
+			<div class="row text-center text-md-start">
+				<!-- Mensaje-marca -->
+				<div class="col-md-4 mb-4">
+					<h5>Marca</h5>
+					<p class="mensaje">Lorem ipsum dolor sit amet, consectetur
+						adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate
+						velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+						occaecat cupidatat non proident, sunt in culpa qui officia
+						deserunt mollit anim id est laborum.</p>
+				</div>
+				<!-- enlaces -->
+				<div class="col-md-4 mb-4">
+					<h5>Enlaces</h5>
+					<ul class="lista-enlaces">
+						<li><a href="Index.html">Inicio</a></li>
+						<li><a href="pages/nosotros.html">Sobre nosotros</a></li>
+						<li><a href="pages/productos.html">Catálogo</a></li>
+						<li><a href="pages/contacto.html">Contáctanos</a></li>
+					</ul>
+				</div>
+				<!-- redes sociales -->
+				<div class="col-md-4 mb-4">
+					<h5>Siguenos</h5>
+					<div class="redes">
+						<a href="#"><i class="fa-brands fa-square-facebook"></i></a> <a
+							href="#"><i class="fa-brands fa-square-instagram"></i></a> <a
+							href="#"><i class="fa-brands fa-square-x-twitter"></i></a> <a
+							href="#"><i class="fa-brands fa-tiktok"></i></a>
+					</div>
+				</div>
+				<!-- Copyright -->
+				<div class="text-center mt-4">
+					<p>&copy; 2026 Marca - Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="src/js/script.js"></script>
+	<script src="https://kit.fontawesome.com/98e007e937.js"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+</body>
+</html>
